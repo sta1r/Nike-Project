@@ -1,0 +1,223 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : LSF/Nike-v02
+ Author : Jonny Garrill
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+@font-face {
+
+
+
+font-family: 'Gratton';
+		    src: url('http://www.fashion.arts.ac.uk/nike/webfonts/gratton.eot');
+		    src: url('http://www.fashion.arts.ac.uk/nike/webfonts/gratton.eot?#iefix') format('embedded-opentype'),
+		         url('http://www.fashion.arts.ac.uk/nike/webfonts/gratton.woff') format('woff'),
+		         url('http://www.fashion.arts.ac.uk/nike/webfonts/gratton.ttf') format('truetype');
+		    font-weight: bold;
+		    font-style: bold;
+
+		    font-family: 'UnitedLight';
+		    src: url('http://www.fashion.arts.ac.uk/nike/webfonts/united-light.eot');
+		    src: url('http://www.fashion.arts.ac.uk/nike/webfonts/united-light.eot?#iefix') format('embedded-opentype'),
+		         url('http://www.fashion.arts.ac.uk/nike/webfonts/united-light.woff') format('woff'),
+		         url('http://www.fashion.arts.ac.uk/nike/webfonts/united-light.oft') format('opentype');
+		    font-weight: bold;
+		    font-style: bold;
+
+		    font-family: 'UnitedBold';
+		    src: url('http://www.fashion.arts.ac.uk/nike/webfonts/united-bold.eot');
+		    src: url('http://www.fashion.arts.ac.uk/nike/webfonts/united-bold.eot?#iefix') format('embedded-opentype'),
+		         url('http://www.fashion.arts.ac.uk/nike/webfonts/united-bold.woff') format('woff'),
+		         url('http://www.fashion.arts.ac.uk/nike/webfonts/united-bold.oft') format('opentype');
+		    font-weight: bold;
+		    font-style: bold;
+
+}
+
+#container {
+	display:block;
+	width:600px;
+	height:245px;
+	font-family:'UnitedBold';
+	font-size:12px;
+	line-height:18px;
+	border:0px solid #000;
+	margin-top: -30px !important;
+	-webkit-box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	box-shadow:none !important;
+}
+
+#container, html.embed {
+background: none !important;
+}
+
+html {
+	background-color: transparent !important;
+}
+
+body {background:url(http://www.fashion.arts.ac.uk/nike/f-bk.gif) !important; margin-top:30px !important;}
+
+h1, h2, .hide, #header {display:none;}
+
+ul {
+	list-style:none;
+}
+
+label {
+	width:200px;
+	display:inline-block;
+}
+
+.name {
+	position:absolute;
+top:20px;
+left:20px;
+width:180px !important;
+padding:10px;
+overflow:hidden;
+}
+
+.ln {margin-top:20px !important;}
+
+#title111 {color:#000 !important;}
+
+label[for=Field111], label[for=Field112], #instruct9{
+	color:#aaa;
+	font-weight:lighter;
+	text-align:left !important;
+}
+
+{
+	color:#aaa;
+}
+
+.course {
+	position:absolute;
+top:20px;
+left:220px;
+width:200px;
+height:100px;
+overflow:hidden;
+}
+
+.year {
+	position:absolute;
+top:80px;
+left:220px;
+width:200px;
+height:100px;
+overflow:hidden;}
+
+.email {
+	position:absolute;
+top:20px;
+left:420px;
+width:200px;
+height:100px;
+overflow:hidden;
+}
+
+#instruct9 {
+	position:absolute;
+top:142px;
+left:15px;
+width:360px;
+height:100px;
+overflow:hidden;
+font-size:8px !important;
+}
+
+.check {
+	position:absolute;
+top:80px;
+left:420px;
+width:200px;
+height:100px;
+overflow:hidden;
+}
+.buttons {
+	position:absolute;
+top:195px;
+left:445px;
+width:200px;
+height:100px;
+overflow:hidden;
+}
+
+input.text, input.search, textarea.textarea {
+	border:1px solid #000 !important;
+	border-width:0 0 1px 0 !important;
+	outline:none !important;
+	width:150px !important;
+	background: #fff !important;
+}
+
+fieldset {
+	margin:0px;
+	border:0px;
+	padding:0px;
+}
+
+.submit {
+	font-family:'Gratton';
+	background-color:#fff;
+	border:0px !important;
+	border-bottom:0px !important;
+	font-size:24px !important;
+
+}
+
+#errorLi {
+	margin-top:-20px !important;
+}
+#errorMsg {display:none !important;}
+
+p.error {
+	width:122px;
+	height:14px;
+	overflow:hidden;
+	line-height:12px;
+}
+
+input.medium, select.medium {
+width: 150px !important;
+}
+
+form li {
+padding: 0px 0px !important;
+}
+
+.wufoo li {
+width: 180px;
+}
+
+.noI form li, .altInstruct form li {
+width: 150px !important;
+background-color: #fff !important;
+}
+
+form ul {
+margin-top: -25px;
+}
+
+form.wufoo {
+margin: 20px 14px 0 -6px;
+}
+
+.wufoo li.focused, form li.focused {
+background-color: none !important;
+}
+
+legend#title10.desc {
+	width:156px;
+}
+
+label.choice {width:137px !important;font-size:10px !important;margin-top:0px !important;}
+
+input.checkbox, input.radio { margin-top:22px !important;margin-bottom:-16px !important;}
+
+#errorLi {border:0px !important;}
+
+#errorMsgLbl {font-size:100% !important;}
